@@ -1,0 +1,15 @@
+<h1> Word Count WEBSITE </h1>
+
+<h1> your </h1>
+
+{% for word, counttotal in narsi %}
+
+{{ word }} - {{ counttotal }}
+
+<br/>
+{% endfor %}
+
+<a href="{% url 'home' %}">Home Page</a>
+</br>
+</br>
+<a href="{% url 'about' %}">about</a>
